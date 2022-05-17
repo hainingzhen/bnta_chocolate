@@ -14,3 +14,4 @@ public interface ChocolateRepository extends JpaRepository<Chocolate, Long> {
     List<Chocolate> findChocolateGreaterThan(int cocoa_percentage);
 
 }
+

@@ -30,7 +30,6 @@ public class ChocolateService {
     }
 
     public List<Chocolate> getByPercentage(int percentage) {
-        List<Chocolate> chocolateList = chocolateRepository.findChocolateGreaterThan(percentage);
-        return chocolateList;
+        return chocolateRepository.findChocolateGreaterThan(percentage);
     }
 }
